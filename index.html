@@ -1,0 +1,1771 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>捷克街头钞能力完整版 | 官方影像门户 街头观察与企业级视频平台</title>
+<meta name="description" content="捷克街头钞能力完整版官方网站，专注捷克街头影像、互动实验与街头观察的精品视频社区，汇集原创高清内容与创作者生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2319273d'/%3E%3Cpath d='M20 24h24v6H20zM20 34h24v6H20z' fill='%23f2b23e'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23e8503a'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ck-blue:#19273d;
+    --ck-blue-2:#24384f;
+    --ck-ink:#14202f;
+    --ck-paper:#f4f6f9;
+    --ck-white:#ffffff;
+    --ck-line:#d8e0ea;
+    --ck-red:#e8503a;
+    --ck-amber:#f2b23e;
+    --ck-teal:#2f8f8a;
+    --ck-muted:#5d6c7e;
+    --ck-radius:14px;
+    --ck-shadow:0 10px 28px rgba(20,32,47,.10);
+    --ck-shadow-sm:0 4px 14px rgba(20,32,47,.08);
+    --ck-pad:clamp(16px,4vw,44px);
+    --ck-sticky:104px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:var(--ck-sticky);}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--ck-ink);
+    background:var(--ck-paper);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font:inherit;cursor:pointer;}
+  h1,h2,h3,h4{margin:0;line-height:1.3;}
+  p{margin:0;}
+  .ck-wrap{width:min(1180px,100% - 2*var(--ck-pad));margin-inline:auto;}
+  .ck-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
+
+  /* ---------- 公告条 + 吸顶页头 ---------- */
+  .ck-sticky-shell{position:sticky;top:0;z-index:80;}
+  .ck-announce{
+    background:var(--ck-blue);
+    color:#e8eefb;
+    font-size:13px;
+    letter-spacing:.02em;
+  }
+  .ck-announce-inner{
+    display:flex;align-items:center;gap:12px;
+    padding:7px 0;flex-wrap:wrap;
+  }
+  .ck-announce-tag{
+    background:var(--ck-red);color:#fff;font-weight:700;
+    padding:1px 9px;border-radius:999px;font-size:12px;flex:0 0 auto;
+    letter-spacing:.06em;
+  }
+  .ck-announce-text{flex:1;min-width:200px;}
+  .ck-announce-text b{color:var(--ck-amber);font-weight:600;}
+  .ck-announce-link{
+    flex:0 0 auto;border-bottom:1px dashed rgba(255,255,255,.55);
+    padding-bottom:1px;font-size:12.5px;color:#fff;opacity:.9;
+  }
+  .ck-announce-link:hover{opacity:1;border-bottom-style:solid;}
+
+  .ck-header{
+    background:rgba(244,246,249,.94);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--ck-line);
+  }
+  .ck-header-inner{
+    display:flex;align-items:center;gap:18px;
+    padding:12px 0;flex-wrap:wrap;
+  }
+  .ck-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+  .ck-brand-mark{
+    width:42px;height:42px;border-radius:11px;
+    background:var(--ck-blue);display:grid;place-items:center;flex:0 0 auto;
+    box-shadow:var(--ck-shadow-sm);
+  }
+  .ck-brand-mark span{
+    width:20px;height:14px;border-radius:3px;background:var(--ck-amber);
+    position:relative;display:block;
+  }
+  .ck-brand-mark span::after{
+    content:"";position:absolute;inset:0;margin:auto;
+    width:0;height:0;border-style:solid;
+    border-width:5px 0 5px 8px;border-color:transparent transparent transparent var(--ck-blue);
+  }
+  .ck-brand-name{font-weight:800;font-size:18px;letter-spacing:.02em;line-height:1.2;}
+  .ck-brand-sub{font-size:11.5px;color:var(--ck-muted);letter-spacing:.14em;}
+
+  .ck-nav{margin-left:auto;display:flex;align-items:center;gap:4px;flex-wrap:wrap;}
+  .ck-nav a{
+    padding:7px 11px;border-radius:9px;font-size:14px;color:var(--ck-blue-2);
+    transition:background .18s,color .18s;
+  }
+  .ck-nav a:hover{background:#e4eaf3;color:var(--ck-blue);}
+  .ck-nav a.is-active{background:var(--ck-blue);color:#fff;}
+
+  .ck-header-tools{display:flex;align-items:center;gap:8px;}
+  .ck-search{
+    display:flex;align-items:center;gap:6px;background:#fff;
+    border:1px solid var(--ck-line);border-radius:999px;padding:5px 6px 5px 13px;
+    box-shadow:inset 0 1px 2px rgba(20,32,47,.04);
+  }
+  .ck-search input{
+    border:0;outline:0;background:transparent;font-size:13.5px;width:150px;
+    color:var(--ck-ink);font-family:inherit;
+  }
+  .ck-search input::placeholder{color:#9aa8b8;}
+  .ck-search button{
+    border:0;background:var(--ck-blue);color:#fff;border-radius:999px;
+    padding:5px 12px;font-size:13px;transition:background .18s;
+  }
+  .ck-search button:hover{background:var(--ck-red);}
+  .ck-search-feedback{
+    font-size:12.5px;color:var(--ck-teal);min-height:18px;
+    padding:0 2px;flex-basis:100%;
+  }
+  .ck-search-feedback.is-empty{color:var(--ck-red);}
+
+  .ck-burger{
+    display:none;border:1px solid var(--ck-line);background:#fff;
+    border-radius:10px;width:40px;height:38px;position:relative;
+  }
+  .ck-burger i{
+    position:absolute;left:11px;right:11px;height:2px;background:var(--ck-blue);
+    border-radius:2px;transition:transform .2s,opacity .2s;
+  }
+  .ck-burger i:nth-child(1){top:12px;}
+  .ck-burger i:nth-child(2){top:18px;}
+  .ck-burger i:nth-child(3){top:24px;}
+  .ck-burger[aria-expanded="true"] i:nth-child(1){transform:translateY(6px) rotate(45deg);}
+  .ck-burger[aria-expanded="true"] i:nth-child(2){opacity:0;}
+  .ck-burger[aria-expanded="true"] i:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+  /* ---------- 首屏 全幅主视觉背景与浮动文字 ---------- */
+  .ck-hero{
+    position:relative;overflow:hidden;
+    background:var(--ck-blue);color:#eef3fb;
+    isolation:isolate;
+  }
+  .ck-hero-media{position:absolute;inset:0;z-index:-1;}
+  .ck-hero-media svg{width:100%;height:100%;object-fit:cover;}
+  .ck-hero-media::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(100deg,rgba(20,32,47,.94) 0%,rgba(20,32,47,.80) 42%,rgba(20,32,47,.34) 100%);
+  }
+  .ck-hero-inner{
+    display:grid;gap:36px;
+    padding:clamp(32px,6vw,72px) 0 clamp(30px,5vw,58px);
+    grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+    align-items:end;
+  }
+  .ck-hero-copy{max-width:640px;}
+  .ck-hero-kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ck-amber);border:1px solid rgba(242,178,62,.45);
+    border-radius:999px;padding:4px 12px;margin-bottom:16px;
+    background:rgba(242,178,62,.08);
+  }
+  .ck-hero-kicker::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ck-amber);}
+  .ck-hero h1{
+    font-size:clamp(30px,4.6vw,54px);
+    font-weight:800;letter-spacing:.01em;line-height:1.16;
+    text-shadow:0 2px 18px rgba(0,0,0,.28);
+  }
+  .ck-hero h1 em{
+    font-style:normal;color:var(--ck-amber);display:block;
+    font-size:.62em;font-weight:700;letter-spacing:.06em;margin-top:6px;
+  }
+  .ck-hero-lead{
+    margin-top:16px;font-size:15px;color:#cbd6e6;max-width:560px;
+  }
+  .ck-hero-intro{
+    margin-top:14px;font-size:14.5px;color:#dfe7f3;
+    background:rgba(255,255,255,.07);
+    border-left:3px solid var(--ck-amber);
+    padding:14px 16px;border-radius:0 10px 10px 0;
+    max-width:600px;
+  }
+  .ck-hero-intro b{color:#fff;}
+  .ck-hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+  .ck-btn{
+    border:0;border-radius:999px;padding:11px 22px;font-size:14px;font-weight:600;
+    display:inline-flex;align-items:center;gap:7px;transition:transform .16s,box-shadow .16s,background .16s,color .16s;
+  }
+  .ck-btn:active{transform:translateY(1px);}
+  .ck-btn-primary{background:var(--ck-red);color:#fff;box-shadow:0 10px 22px rgba(232,80,58,.32);}
+  .ck-btn-primary:hover{background:#f0604a;}
+  .ck-btn-ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.28);}
+  .ck-btn-ghost:hover{background:rgba(255,255,255,.22);}
+  .ck-btn-dark{background:var(--ck-blue);color:#fff;}
+  .ck-btn-dark:hover{background:var(--ck-blue-2);}
+  .ck-btn-line{background:#fff;color:var(--ck-blue);border:1px solid var(--ck-line);}
+  .ck-btn-line:hover{border-color:var(--ck-blue);}
+
+  .ck-hero-side{display:grid;gap:14px;}
+  .ck-stat-grid{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;
+  }
+  .ck-stat{
+    background:rgba(255,255,255,.09);
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:12px 12px 10px;
+    backdrop-filter:blur(6px);
+  }
+  .ck-stat b{
+    display:block;font-size:clamp(19px,2.4vw,25px);color:#fff;font-weight:800;line-height:1.2;
+  }
+  .ck-stat span{font-size:11.5px;color:#b8c6d9;letter-spacing:.04em;}
+  .ck-hero-note{
+    font-size:12.5px;color:#aebdd2;border-top:1px dashed rgba(255,255,255,.2);
+    padding-top:12px;line-height:1.7;
+  }
+  .ck-hero-note strong{color:var(--ck-amber);}
+  .ck-hero-chiprow{display:flex;flex-wrap:wrap;gap:7px;}
+  .ck-hero-chip{
+    font-size:11.5px;color:#dbe5f2;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:3px 10px;
+  }
+
+  /* ---------- 通用 section ---------- */
+  .ck-section{padding:clamp(34px,5.4vw,64px) 0;}
+  .ck-section-alt{background:#fff;border-block:1px solid var(--ck-line);}
+  .ck-sec-head{margin-bottom:clamp(20px,3vw,32px);}
+  .ck-sec-tag{
+    font-size:12px;letter-spacing:.2em;color:var(--ck-teal);font-weight:700;
+    text-transform:uppercase;display:block;margin-bottom:8px;
+  }
+  .ck-sec-head h2{
+    font-size:clamp(22px,3.1vw,31px);font-weight:800;color:var(--ck-blue);
+    letter-spacing:.01em;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  }
+  .ck-sec-head h2 small{
+    font-size:13px;font-weight:500;color:var(--ck-muted);letter-spacing:.02em;
+  }
+  .ck-sec-desc{margin-top:9px;color:var(--ck-muted);font-size:14px;max-width:760px;}
+
+  /* ---------- 视频区：两列图文卡片 + 重点大图 ---------- */
+  .ck-feature{
+    display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);
+    gap:clamp(14px,2.2vw,24px);
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    overflow:hidden;box-shadow:var(--ck-shadow);
+  }
+  .ck-feature-media{position:relative;background:var(--ck-blue);}
+  .ck-feature-media svg{width:100%;height:100%;aspect-ratio:16/10;object-fit:cover;}
+  .ck-feature-play{
+    position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    width:64px;height:64px;border-radius:50%;border:0;
+    background:rgba(232,80,58,.94);color:#fff;
+    display:grid;place-items:center;box-shadow:0 12px 30px rgba(0,0,0,.35);
+    transition:transform .18s,background .18s;
+  }
+  .ck-feature-play:hover{transform:translate(-50%,-50%) scale(1.07);background:var(--ck-red);}
+  .ck-feature-play::before{
+    content:"";width:0;height:0;border-style:solid;
+    border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff;
+    margin-left:5px;
+  }
+  .ck-feature-badge{
+    position:absolute;left:14px;top:14px;background:rgba(20,32,47,.86);
+    color:#fff;font-size:12px;padding:3px 10px;border-radius:999px;letter-spacing:.06em;
+  }
+  .ck-feature-body{padding:clamp(16px,2.4vw,26px);display:flex;flex-direction:column;gap:12px;}
+  .ck-feature-body h3{font-size:clamp(18px,2.2vw,23px);color:var(--ck-blue);}
+  .ck-feature-body p{font-size:14px;color:var(--ck-muted);}
+  .ck-meta-row{
+    display:flex;flex-wrap:wrap;gap:8px 14px;font-size:12.5px;color:var(--ck-muted);
+    align-items:center;
+  }
+  .ck-meta-row b{color:var(--ck-ink);font-weight:600;}
+  .ck-tag{
+    display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;
+    background:#eaf1f9;color:#2c5478;letter-spacing:.02em;
+  }
+  .ck-tag-amber{background:#fdf1d8;color:#8a5a05;}
+  .ck-tag-red{background:#fde6e2;color:#a5311d;}
+  .ck-tag-teal{background:#e2f3f1;color:#1e6a66;}
+
+  .ck-video-grid{
+    margin-top:18px;display:grid;gap:16px;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+  .ck-vcard{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    overflow:hidden;display:flex;flex-direction:column;
+    transition:transform .2s,box-shadow .2s,border-color .2s;
+  }
+  .ck-vcard:hover{transform:translateY(-3px);box-shadow:var(--ck-shadow);border-color:#bccbdc;}
+  .ck-vcard-media{position:relative;background:#dde6f0;}
+  .ck-vcard-media svg{width:100%;aspect-ratio:16/9;object-fit:cover;}
+  .ck-vcard-dur{
+    position:absolute;right:9px;bottom:9px;background:rgba(20,32,47,.82);color:#fff;
+    font-size:11.5px;padding:2px 7px;border-radius:5px;letter-spacing:.03em;
+  }
+  .ck-vcard-body{padding:14px 15px 15px;display:flex;flex-direction:column;gap:9px;flex:1;}
+  .ck-vcard-body h3{font-size:15.5px;color:var(--ck-blue);}
+  .ck-vcard-body p{font-size:13px;color:var(--ck-muted);flex:1;}
+  .ck-actions{display:flex;flex-wrap:wrap;gap:7px;align-items:center;}
+  .ck-icon-btn{
+    border:1px solid var(--ck-line);background:#fff;border-radius:999px;
+    font-size:12px;padding:4px 11px;color:var(--ck-muted);
+    display:inline-flex;align-items:center;gap:5px;transition:all .16s;
+  }
+  .ck-icon-btn:hover{border-color:var(--ck-blue);color:var(--ck-blue);background:#f3f7fc;}
+  .ck-icon-btn.is-liked{background:#fde6e2;border-color:#f3b3a6;color:#a5311d;}
+  .ck-icon-btn.is-saved{background:#e6f4f2;border-color:#a5d7d2;color:#1e6a66;}
+  .ck-icon-btn .ck-dot{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.65;}
+
+  /* ---------- 图文索引 ---------- */
+  .ck-index-grid{
+    display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .ck-index-card{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    padding:16px;display:flex;gap:13px;transition:border-color .18s,box-shadow .18s;
+  }
+  .ck-index-card:hover{border-color:#bccbdc;box-shadow:var(--ck-shadow-sm);}
+  .ck-index-thumb{
+    width:76px;flex:0 0 76px;aspect-ratio:1/1;border-radius:10px;overflow:hidden;background:#e8eef6;
+  }
+  .ck-index-thumb svg{width:100%;height:100%;}
+  .ck-index-body h3{font-size:14.5px;color:var(--ck-blue);margin-bottom:5px;}
+  .ck-index-body p{font-size:12.5px;color:var(--ck-muted);}
+  .ck-index-body .ck-tag{margin-top:7px;}
+
+  /* ---------- 关键词解析长文 ---------- */
+  .ck-essay{
+    display:grid;grid-template-columns:minmax(0,.32fr) minmax(0,.68fr);
+    gap:clamp(18px,3vw,38px);align-items:start;
+  }
+  .ck-essay-aside{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    padding:18px;position:sticky;top:calc(var(--ck-sticky) + 16px);
+    box-shadow:var(--ck-shadow-sm);
+  }
+  .ck-essay-aside h3{font-size:15px;color:var(--ck-blue);margin-bottom:10px;}
+  .ck-essay-aside ul{margin:0;padding-left:18px;font-size:13px;color:var(--ck-muted);display:grid;gap:6px;}
+  .ck-essay-aside .ck-mini-stat{
+    margin-top:14px;padding-top:12px;border-top:1px dashed var(--ck-line);
+    font-size:12.5px;color:var(--ck-muted);display:grid;gap:5px;
+  }
+  .ck-essay-aside .ck-mini-stat b{color:var(--ck-teal);font-weight:700;}
+  .ck-essay-main{display:grid;gap:20px;}
+  .ck-essay-main h3{
+    font-size:clamp(17px,2.1vw,20px);color:var(--ck-blue);
+    padding-left:12px;border-left:4px solid var(--ck-amber);line-height:1.4;
+  }
+  .ck-essay-main p{font-size:14.5px;color:#31404f;}
+  .ck-essay-main p + p{margin-top:10px;}
+  .ck-essay-quote{
+    background:#fff;border:1px solid var(--ck-line);border-left:4px solid var(--ck-teal);
+    border-radius:0 12px 12px 0;padding:14px 16px;font-size:14px;color:#2d4a53;
+  }
+  .ck-essay-quote b{color:var(--ck-teal);}
+
+  /* ---------- 专题 ---------- */
+  .ck-topics{display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr));}
+  .ck-topic{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    padding:18px;display:flex;flex-direction:column;gap:10px;
+    position:relative;overflow:hidden;transition:transform .18s,box-shadow .18s;
+  }
+  .ck-topic:hover{transform:translateY(-3px);box-shadow:var(--ck-shadow);}
+  .ck-topic::before{
+    content:"";position:absolute;right:-30px;top:-30px;width:90px;height:90px;
+    border-radius:50%;background:#f2b23e22;
+  }
+  .ck-topic h3{font-size:16px;color:var(--ck-blue);position:relative;}
+  .ck-topic p{font-size:13px;color:var(--ck-muted);position:relative;}
+  .ck-topic-status{
+    align-self:flex-start;font-size:11.5px;background:#e2f3f1;color:#1e6a66;
+    padding:2px 9px;border-radius:999px;font-weight:600;letter-spacing:.03em;
+  }
+  .ck-topic-status.is-hot{background:#fde6e2;color:#a5311d;}
+  .ck-topic-list{list-style:none;margin:2px 0 0;padding:0;display:grid;gap:7px;}
+  .ck-topic-list li{
+    font-size:13px;color:#37475a;display:flex;gap:8px;align-items:baseline;
+    padding-top:7px;border-top:1px dashed var(--ck-line);
+  }
+  .ck-topic-list li::before{content:"▸";color:var(--ck-amber);flex:0 0 auto;font-size:12px;}
+
+  /* ---------- 作者区：双列简介 ---------- */
+  .ck-authors{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ck-author{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    padding:18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;
+    transition:border-color .18s,box-shadow .18s;
+  }
+  .ck-author:hover{border-color:#bccbdc;box-shadow:var(--ck-shadow-sm);}
+  .ck-avatar{
+    width:56px;height:56px;border-radius:16px;overflow:hidden;flex:0 0 auto;
+    display:grid;place-items:center;font-weight:800;font-size:20px;color:#fff;
+    box-shadow:var(--ck-shadow-sm);
+  }
+  .ck-author-body{min-width:0;}
+  .ck-author-body h3{font-size:15.5px;color:var(--ck-blue);display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .ck-author-body h3 .ck-tag{font-weight:500;}
+  .ck-author-stats{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--ck-muted);margin:6px 0 7px;}
+  .ck-author-stats b{color:var(--ck-ink);}
+  .ck-author-body p{font-size:13px;color:var(--ck-muted);}
+  .ck-author-actions{margin-top:9px;display:flex;gap:7px;flex-wrap:wrap;}
+
+  /* ---------- 评论：引用摘录 ---------- */
+  .ck-quotes{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr));}
+  .ck-quote{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    padding:18px;display:flex;flex-direction:column;gap:10px;position:relative;
+  }
+  .ck-quote::before{
+    content:"“";position:absolute;right:16px;top:2px;font-size:56px;line-height:1;
+    color:#e1e9f3;font-family:Georgia,serif;pointer-events:none;
+  }
+  .ck-quote p{font-size:14px;color:#31404f;position:relative;z-index:1;}
+  .ck-quote-foot{
+    display:flex;align-items:center;gap:9px;margin-top:auto;padding-top:10px;
+    border-top:1px dashed var(--ck-line);
+  }
+  .ck-quote-foot .ck-avatar{width:32px;height:32px;border-radius:10px;font-size:13px;}
+  .ck-quote-foot span{font-size:12.5px;color:var(--ck-muted);}
+  .ck-quote-foot b{color:var(--ck-blue);font-weight:600;}
+  .ck-stars{color:var(--ck-amber);font-size:12px;letter-spacing:1px;}
+
+  /* ---------- 榜单 ---------- */
+  .ck-rank{
+    background:#fff;border:1px solid var(--ck-line);border-radius:var(--ck-radius);
+    overflow:hidden;
+  }
+  .ck-rank-row{
+    display:grid;grid-template-columns:44px minmax(0,1fr) auto auto;
+    gap:12px;align-items:center;padding:13px 16px;
+    border-bottom:1px solid #edf1f6;transition:background .16s;
+  }
+  .ck-rank-row:last-child{border-bottom:0;}
+  .ck-rank-row:hover{background:#f7fafd;}
+  .ck-rank-no{
+    font-weight:800;font-size:15px;color:#fff;background:var(--ck-blue);
+    width:28px;height:28px;border-radius:9px;display:grid;place-items:center;
+    font-size:13px;
+  }
+  .ck-rank-row:nth-child(1) .ck-rank-no{background:var(--ck-red);}
+  .ck-rank-row:nth-child(2) .ck-rank-no{background:var(--ck-amber);color:#4a3300;}
+  .ck-rank-row:nth-child(3) .ck-rank-no{background:var(--ck-teal);}
+  .ck-rank-title{font-size:14px;color:var(--ck-blue);font-weight:600;min-width:0;overflow-wrap:anywhere;}
+  .ck-rank-title small{display:block;font-size:12px;font-weight:400;color:var(--ck-muted);margin-top:2px;}
+  .ck-rank-num{font-size:12.5px;color:var(--ck-muted);white-space:nowrap;}
+  .ck-rank-num b{color:var(--ck-ink);}
+  .ck-rank-trend{font-size:12px;color:var(--ck-teal);white-space:nowrap;font-weight:600;}
+  .ck-rank-trend.is-down{color:#b0463a;}
+
+  /* ---------- 企业动态 ---------- */
+  .ck-news{display:grid;gap:12px;}
+  .ck-news-item{
+    display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;align-items:start;
+    background:#fff;border:1px solid var(--ck-line);border-radius:12px;padding:14px 16px;
+  }
+  .ck-news-date{
+    font-size:12.5px;color:var(--ck-teal);font-weight:700;letter-spacing:.02em;
+    padding-top:2px;
+  }
+  .ck-news-item h3{font-size:14.5px;color:var(--ck-blue);}
+  .ck-news-item p{font-size:13px;color:var(--ck-muted);margin-top:4px;}
+
+  /* ---------- 合作墙 ---------- */
+  .ck-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;}
+  .ck-partner{
+    background:#fff;border:1px dashed #c9d6e4;border-radius:12px;
+    padding:16px 12px;text-align:center;transition:border-color .18s,background .18s;
+  }
+  .ck-partner:hover{border-color:var(--ck-teal);background:#f6fbfa;}
+  .ck-partner b{display:block;color:var(--ck-blue);font-size:14px;}
+  .ck-partner span{font-size:11.5px;color:var(--ck-muted);letter-spacing:.04em;}
+
+  /* ---------- FAQ ---------- */
+  .ck-faq{display:grid;gap:10px;}
+  .ck-faq details{
+    background:#fff;border:1px solid var(--ck-line);border-radius:12px;
+    padding:0;overflow:hidden;transition:border-color .18s;
+  }
+  .ck-faq details[open]{border-color:#b6cadf;}
+  .ck-faq summary{
+    cursor:pointer;list-style:none;padding:14px 44px 14px 16px;position:relative;
+    font-size:14.5px;font-weight:600;color:var(--ck-blue);
+  }
+  .ck-faq summary::-webkit-details-marker{display:none;}
+  .ck-faq summary::after{
+    content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+    font-size:19px;color:var(--ck-teal);font-weight:400;line-height:1;
+  }
+  .ck-faq details[open] summary::after{content:"–";}
+  .ck-faq details p{padding:0 16px 15px;font-size:13.5px;color:var(--ck-muted);}
+
+  /* ---------- 投稿/联系 ---------- */
+  .ck-cta{
+    background:var(--ck-blue);color:#eaf1fa;border-radius:var(--ck-radius);
+    padding:clamp(20px,3.4vw,34px);
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;
+    box-shadow:var(--ck-shadow);
+    position:relative;overflow:hidden;
+  }
+  .ck-cta::after{
+    content:"";position:absolute;right:-40px;bottom:-60px;width:220px;height:220px;
+    border-radius:50%;background:rgba(242,178,62,.14);
+  }
+  .ck-cta h2{font-size:clamp(19px,2.6vw,25px);color:#fff;}
+  .ck-cta p{font-size:13.5px;color:#c3d0e2;margin-top:6px;max-width:620px;}
+  .ck-cta-actions{display:flex;flex-wrap:wrap;gap:10px;position:relative;z-index:1;}
+
+  /* ---------- 页脚 ---------- */
+  .ck-footer{background:#101b29;color:#a9b8cc;font-size:13px;padding:clamp(30px,4.6vw,50px) 0 26px;}
+  .ck-footer-grid{
+    display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));
+    gap:clamp(18px,3vw,34px);
+  }
+  .ck-footer h3{font-size:13px;color:#fff;letter-spacing:.1em;margin-bottom:12px;font-weight:700;}
+  .ck-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+  .ck-footer-brand .ck-brand-mark{background:#22344a;}
+  .ck-footer-brand b{color:#fff;font-size:16px;}
+  .ck-footer p{line-height:1.85;font-size:12.5px;}
+  .ck-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;}
+  .ck-footer ul a{font-size:12.5px;color:#a9b8cc;transition:color .16s;}
+  .ck-footer ul a:hover{color:var(--ck-amber);}
+  .ck-footer-bottom{
+    margin-top:26px;padding-top:16px;border-top:1px solid #24384f;
+    display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;color:#7f8fa3;
+    justify-content:space-between;align-items:center;
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  .ck-top-btn{
+    position:fixed;right:18px;bottom:22px;z-index:70;
+    width:46px;height:46px;border-radius:50%;border:0;
+    background:var(--ck-blue);color:#fff;font-size:16px;
+    box-shadow:0 10px 24px rgba(20,32,47,.3);
+    display:grid;place-items:center;opacity:0;pointer-events:none;
+    transition:opacity .22s,transform .22s,background .18s;
+  }
+  .ck-top-btn.is-show{opacity:1;pointer-events:auto;}
+  .ck-top-btn:hover{background:var(--ck-red);transform:translateY(-2px);}
+
+  /* ---------- 弹窗 & Toast ---------- */
+  .ck-modal-mask{
+    position:fixed;inset:0;background:rgba(13,22,33,.58);z-index:120;
+    display:none;align-items:center;justify-content:center;padding:18px;
+    backdrop-filter:blur(3px);
+  }
+  .ck-modal-mask.is-open{display:flex;}
+  .ck-modal{
+    background:#fff;border-radius:16px;max-width:520px;width:100%;
+    max-height:86vh;overflow:auto;padding:22px;box-shadow:0 24px 60px rgba(0,0,0,.32);
+    animation:ckPop .2s ease;
+  }
+  @keyframes ckPop{from{transform:translateY(10px);opacity:.6;}to{transform:none;opacity:1;}}
+  .ck-modal h3{font-size:18px;color:var(--ck-blue);display:flex;justify-content:space-between;align-items:center;gap:12px;}
+  .ck-modal-close{border:0;background:#eef3f9;color:var(--ck-blue);border-radius:9px;width:32px;height:32px;font-size:16px;line-height:1;}
+  .ck-modal-close:hover{background:#dde7f2;}
+  .ck-modal p{font-size:13.5px;color:var(--ck-muted);margin-top:10px;}
+  .ck-modal label{display:block;font-size:12.5px;color:var(--ck-muted);margin:12px 0 5px;font-weight:600;}
+  .ck-modal input,.ck-modal textarea,.ck-modal select{
+    width:100%;border:1px solid var(--ck-line);border-radius:10px;padding:9px 11px;
+    font-size:13.5px;font-family:inherit;outline:0;background:#fbfdff;color:var(--ck-ink);
+  }
+  .ck-modal input:focus,.ck-modal textarea:focus,.ck-modal select:focus{border-color:var(--ck-teal);background:#fff;}
+  .ck-modal textarea{resize:vertical;min-height:88px;}
+  .ck-modal-actions{display:flex;gap:9px;margin-top:16px;flex-wrap:wrap;}
+
+  .ck-toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,16px);
+    background:var(--ck-ink);color:#fff;font-size:13.5px;padding:10px 18px;
+    border-radius:999px;z-index:200;opacity:0;pointer-events:none;
+    transition:opacity .24s,transform .24s;box-shadow:0 12px 30px rgba(0,0,0,.28);
+    max-width:88vw;text-align:center;
+  }
+  .ck-toast.is-show{opacity:1;transform:translate(-50%,0);}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:960px){
+    .ck-hero-inner{grid-template-columns:minmax(0,1fr);gap:26px;align-items:start;}
+    .ck-feature{grid-template-columns:minmax(0,1fr);}
+    .ck-index-grid,.ck-topics{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .ck-partners{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .ck-essay{grid-template-columns:minmax(0,1fr);}
+    .ck-essay-aside{position:static;}
+    .ck-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  }
+  @media (max-width:760px){
+    .ck-nav{
+      display:none;order:5;flex-basis:100%;flex-direction:column;align-items:stretch;
+      gap:2px;background:#fff;border:1px solid var(--ck-line);border-radius:12px;
+      padding:8px;margin-top:6px;box-shadow:var(--ck-shadow-sm);
+    }
+    .ck-nav.is-open{display:flex;}
+    .ck-nav a{padding:10px 12px;border-radius:8px;}
+    .ck-header-tools{margin-left:auto;}
+    .ck-burger{display:block;}
+    .ck-search input{width:118px;}
+    .ck-video-grid,.ck-authors,.ck-quotes,.ck-index-grid,.ck-topics{grid-template-columns:minmax(0,1fr);}
+    .ck-stat-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+    .ck-cta{grid-template-columns:minmax(0,1fr);}
+    .ck-rank-row{grid-template-columns:34px minmax(0,1fr) auto;gap:8px;}
+    .ck-rank-num{display:none;}
+    .ck-news-item{grid-template-columns:minmax(0,1fr);gap:5px;}
+    .ck-footer-grid{grid-template-columns:minmax(0,1fr);}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;animation:none !important;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="ck-sticky-shell">
+  <div class="ck-announce">
+    <div class="ck-wrap ck-announce-inner">
+      <span class="ck-announce-tag">官方发布</span>
+      <p class="ck-announce-text"><b>新增</b>《捷克街头钞能力完整版》第 12 期正片上线，同步开放街头挑战投稿通道；创作者激励计划第二季报名启动。</p>
+      <a class="ck-announce-link" href="#ck-updates">查看更新日志 ▸</a>
+    </div>
+  </div>
+
+  <header class="ck-header">
+    <div class="ck-wrap ck-header-inner">
+      <a class="ck-brand" href="#ck-top" aria-label="捷克街头钞能力完整版 官网首页">
+        <span class="ck-brand-mark" aria-hidden="true"><span></span></span>
+        <span>
+          <span class="ck-brand-name">捷克街头钞能力</span>
+          <span class="ck-brand-sub">STREET POWER · 官方影像门户</span>
+        </span>
+      </a>
+
+      <nav class="ck-nav" id="ck-nav" aria-label="站内导航">
+        <a href="#ck-top" class="is-active">首页</a>
+        <a href="#ck-focus">焦点影像</a>
+        <a href="#ck-topics">专题企划</a>
+        <a href="#ck-essay">深度解析</a>
+        <a href="#ck-authors">创作者</a>
+        <a href="#ck-rank">口碑榜</a>
+        <a href="#ck-updates">企业动态</a>
+        <a href="#ck-faq">帮助</a>
+      </nav>
+
+      <div class="ck-header-tools">
+        <form class="ck-search" id="ck-search-form" role="search" onsubmit="return false;">
+          <label class="ck-sr-only" for="ck-search-input">搜索站内内容</label>
+          <input id="ck-search-input" type="search" placeholder="搜索街头影像 / 创作者" autocomplete="off">
+          <button type="submit">搜索</button>
+          <p class="ck-search-feedback" id="ck-search-feedback" aria-live="polite"></p>
+        </form>
+        <button class="ck-burger" id="ck-burger" aria-expanded="false" aria-controls="ck-nav" aria-label="展开导航菜单">
+          <i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="ck-top">
+
+  <!-- S2 品牌首屏 -->
+  <section class="ck-hero" aria-labelledby="ck-hero-title">
+    <div class="ck-hero-media" aria-hidden="true">
+      <svg viewBox="0 0 1600 760" preserveAspectRatio="xMidYMid slice" role="img" aria-label="布拉格老城街角夜景与手持摄影机拍摄街头互动的场景插画">
+        <defs>
+          <linearGradient id="ckSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#0e1a2a"/><stop offset="1" stop-color="#1d3450"/>
+          </linearGradient>
+          <linearGradient id="ckGlow" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f2b23e" stop-opacity=".55"/><stop offset="1" stop-color="#f2b23e" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <rect width="1600" height="760" fill="url(#ckSky)"/>
+        <circle cx="1290" cy="170" r="230" fill="url(#ckGlow)"/>
+        <g fill="#243d59">
+          <rect x="0" y="300" width="230" height="460"/>
+          <rect x="240" y="250" width="190" height="510"/>
+          <rect x="440" y="330" width="150" height="430"/>
+          <rect x="1030" y="280" width="200" height="480"/>
+          <rect x="1250" y="230" width="230" height="530"/>
+          <rect x="1490" y="320" width="110" height="440"/>
+        </g>
+        <g fill="#2f4d6c">
+          <rect x="20" y="320" width="180" height="200"/>
+          <rect x="260" y="270" width="150" height="180"/>
+          <rect x="1050" y="300" width="160" height="200"/>
+          <rect x="1270" y="250" width="190" height="210"/>
+        </g>
+        <g fill="#f2b23e" opacity=".8">
+          <rect x="48" y="360" width="24" height="30"/><rect x="100" y="360" width="24" height="30"/>
+          <rect x="150" y="420" width="24" height="30"/><rect x="286" y="316" width="22" height="28"/>
+          <rect x="336" y="316" width="22" height="28"/><rect x="1080" y="346" width="24" height="30"/>
+          <rect x="1130" y="400" width="24" height="30"/><rect x="1300" y="300" width="24" height="30"/>
+          <rect x="1360" y="300" width="24" height="30"/><rect x="1400" y="380" width="24" height="30"/>
+        </g>
+        <rect x="0" y="640" width="1600" height="120" fill="#132434"/>
+        <g stroke="#3b5a7c" stroke-width="3" opacity=".5">
+          <line x1="0" y1="700" x2="1600" y2="700"/>
+          <line x1="0" y1="735" x2="1600" y2="735"/>
+        </g>
+        <g transform="translate(560 430)">
+          <rect x="0" y="0" width="300" height="170" rx="18" fill="#0e1c2b" stroke="#456a90" stroke-width="4"/>
+          <circle cx="150" cy="85" r="52" fill="#132a3f" stroke="#f2b23e" stroke-width="4"/>
+          <circle cx="150" cy="85" r="26" fill="#e8503a"/>
+          <rect x="-40" y="52" width="46" height="66" rx="10" fill="#1b3247" stroke="#456a90" stroke-width="4"/>
+          <rect x="294" y="52" width="46" height="66" rx="10" fill="#1b3247" stroke="#456a90" stroke-width="4"/>
+          <rect x="118" y="-30" width="64" height="34" rx="8" fill="#1b3247" stroke="#456a90" stroke-width="4"/>
+        </g>
+        <g fill="#0f2033" opacity=".9">
+          <circle cx="330" cy="600" r="26"/><rect x="306" y="622" width="48" height="86" rx="18"/>
+          <circle cx="420" cy="614" r="22"/><rect x="400" y="632" width="40" height="76" rx="16"/>
+          <circle cx="1180" cy="606" r="24"/><rect x="1158" y="626" width="44" height="82" rx="17"/>
+        </g>
+        <g transform="translate(880 560)">
+          <rect x="0" y="0" width="120" height="150" rx="8" fill="#e8e2d2" opacity=".92"/>
+          <rect x="12" y="16" width="96" height="12" rx="4" fill="#c9b78d"/>
+          <rect x="12" y="40" width="70" height="10" rx="4" fill="#c9b78d"/>
+          <text x="60" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="42" fill="#a5843c">Kč</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="ck-wrap ck-hero-inner">
+      <div class="ck-hero-copy">
+        <span class="ck-hero-kicker">官方网站 · 街头观察影像社区</span>
+        <h1 id="ck-hero-title">捷克街头钞能力完整版<em>布拉格街头观察 · 原创高清影像门户</em></h1>
+        <p class="ck-hero-lead">用镜头记录街头陌生人面对一个开放式选择时的真实反应，把互动、拍摄与叙事做成可持续的内容生态。</p>
+        <p class="ck-hero-intro">作为专注 <b>捷克街头</b> 题材的品牌官方网站，我们以专业摄制团队与创作者社区共建品质内容：每一期《钞能力》都在真实街区完成，完整呈现策划、拍摄、剪辑与复盘，让街头观察既有<b>影响力</b>也有温度。</p>
+        <div class="ck-hero-actions">
+          <a class="ck-btn ck-btn-primary" href="#ck-focus">观看最新正片 ▸</a>
+          <a class="ck-btn ck-btn-ghost" href="#ck-topics">进入专题企划</a>
+          <a class="ck-btn ck-btn-ghost" href="#ck-submit">投稿与报名</a>
+        </div>
+      </div>
+
+      <div class="ck-hero-side">
+        <div class="ck-stat-grid">
+          <div class="ck-stat"><b>1,268</b><span>原创正片 · 期</span></div>
+          <div class="ck-stat"><b>9,340万</b><span>累计播放 · 次</span></div>
+          <div class="ck-stat"><b>184</b><span>在册创作者 · 位</span></div>
+        </div>
+        <div class="ck-hero-chiprow">
+          <span class="ck-hero-chip">街头互动</span>
+          <span class="ck-hero-chip">真实反应</span>
+          <span class="ck-hero-chip">拍摄幕后</span>
+          <span class="ck-hero-chip">城市探索</span>
+          <span class="ck-hero-chip">在地文化</span>
+        </div>
+        <p class="ck-hero-note"><strong>持续运营第 6 年</strong>：官方团队每两周更新一期正片，社区每周三更新幕后花絮与剪辑拆解，全部内容正版高清发布。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点影像 -->
+  <section class="ck-section" id="ck-focus" aria-labelledby="ck-focus-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Focus · 焦点影像</span>
+        <h2 id="ck-focus-title">本期焦点：捷克街头钞能力完整版第 12 期<small>老城广场 · 三机位实拍</small></h2>
+        <p class="ck-sec-desc">焦点内容由官方编辑部与创作者联合推荐，所有条目附作者、数据与标签，点击按钮可收藏、点赞或查看创作者档案。</p>
+      </div>
+
+      <article class="ck-feature">
+        <div class="ck-feature-media">
+          <svg viewBox="0 0 960 600" role="img" aria-label="老城广场三机位同时拍摄街头互动实验的俯视构图">
+            <rect width="960" height="600" fill="#1a2f45"/>
+            <rect x="60" y="70" width="840" height="460" rx="18" fill="#223d57"/>
+            <g stroke="#345b80" stroke-width="2" opacity=".7">
+              <line x1="60" y1="180" x2="900" y2="180"/><line x1="60" y1="300" x2="900" y2="300"/>
+              <line x1="60" y1="420" x2="900" y2="420"/><line x1="300" y1="70" x2="300" y2="530"/>
+              <line x1="620" y1="70" x2="620" y2="530"/>
+            </g>
+            <g fill="#f2b23e" opacity=".85">
+              <rect x="100" y="100" width="70" height="9" rx="4"/>
+              <rect x="100" y="118" width="44" height="7" rx="3"/>
+            </g>
+            <g transform="translate(360 200)">
+              <rect x="0" y="130" width="230" height="120" rx="12" fill="#0e1f30" stroke="#4d7799" stroke-width="3"/>
+              <circle cx="115" cy="190" r="36" fill="#16334c" stroke="#e8503a" stroke-width="3"/>
+              <circle cx="115" cy="190" r="15" fill="#e8503a"/>
+            </g>
+            <g stroke="#e8503a" stroke-width="3" fill="none" opacity=".8">
+              <path d="M120 500 L300 380 L360 330"/>
+              <path d="M840 500 L640 380 L590 330"/>
+              <path d="M480 560 L480 480 L480 430"/>
+            </g>
+            <g fill="#e8503a">
+              <circle cx="120" cy="500" r="9"/><circle cx="840" cy="500" r="9"/><circle cx="480" cy="560" r="9"/>
+            </g>
+            <g fill="#cfe0f0" font-family="sans-serif" font-size="17">
+              <text x="86" y="535">CAM 01</text><text x="806" y="535">CAM 02</text><text x="446" y="592">CAM 03</text>
+            </g>
+            <g fill="#7fa4c6" font-family="sans-serif" font-size="16">
+              <text x="400" y="410">主互动区 · 广场东侧</text>
+            </g>
+            <circle cx="480" cy="150" r="46" fill="none" stroke="#f2b23e" stroke-width="3" stroke-dasharray="7 7"/>
+            <text x="480" y="157" text-anchor="middle" fill="#f2b23e" font-family="sans-serif" font-size="20">REC</text>
+          </svg>
+          <span class="ck-feature-badge">官方正片 · 高清</span>
+          <button class="ck-feature-play" type="button" aria-label="播放捷克街头钞能力完整版第 12 期" data-ck-play="捷克街头钞能力完整版第 12 期"></button>
+        </div>
+        <div class="ck-feature-body">
+          <h3>捷克街头钞能力完整版第 12 期 · 老城广场的三分钟选择题</h3>
+          <p>本次拍摄选取布拉格老城广场东侧人流最密集的时段，用三个机位记录 47 位路人的真实反应。从犹豫、微笑到主动追问规则，完整版保留了全部未剪辑片段与事后采访，让街头互动的真实感不被剪辑抹平。</p>
+          <div class="ck-meta-row">
+            <span>作者：<b>街头观察组 · 阿岚</b></span>
+            <span>时长 <b>18:42</b></span>
+            <span>播放 <b>216.4 万</b></span>
+            <span>点赞 <b>9.8 万</b></span>
+          </div>
+          <div class="ck-meta-row">
+            <span class="ck-tag ck-tag-red">街头互动</span>
+            <span class="ck-tag ck-tag-amber">完整版</span>
+            <span class="ck-tag">拍摄幕后</span>
+            <span class="ck-tag">城市探索</span>
+          </div>
+          <div class="ck-actions">
+            <button class="ck-icon-btn" type="button" data-ck-like aria-pressed="false"><span class="ck-dot"></span>点赞 <b>9.8万</b></button>
+            <button class="ck-icon-btn" type="button" data-ck-save aria-pressed="false">☆ 收藏</button>
+            <button class="ck-icon-btn" type="button" data-ck-share="捷克街头钞能力完整版第 12 期">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="ck-video-grid">
+        <article class="ck-vcard">
+          <div class="ck-vcard-media">
+            <svg viewBox="0 0 640 360" role="img" aria-label="查理大桥清晨薄雾中的街头跟拍画面">
+              <rect width="640" height="360" fill="#1b2d42"/>
+              <rect y="240" width="640" height="120" fill="#152436"/>
+              <g fill="#2b4a68">
+                <rect x="60" y="150" width="90" height="90"/><rect x="180" y="120" width="70" height="120"/>
+                <rect x="300" y="170" width="60" height="70"/><rect x="430" y="110" width="90" height="130"/>
+                <rect x="550" y="160" width="70" height="80"/>
+              </g>
+              <g stroke="#4a7297" stroke-width="6" fill="none">
+                <path d="M20 250 Q120 200 220 250 T420 250 T620 250"/>
+              </g>
+              <g fill="#f2b23e" opacity=".75">
+                <circle cx="120" cy="190" r="7"/><circle cx="330" cy="205" r="7"/><circle cx="500" cy="180" r="7"/>
+              </g>
+              <rect x="0" y="0" width="640" height="360" fill="#0e1a28" opacity=".25"/>
+              <text x="30" y="56" fill="#c9dcef" font-family="sans-serif" font-size="20">CHARLES BRIDGE · 05:40</text>
+            </svg>
+            <span class="ck-vcard-dur">12:08</span>
+          </div>
+          <div class="ck-vcard-body">
+            <h3>清晨六点的查理大桥：跟拍一位街头艺人的第一笔收入</h3>
+            <p>不设脚本的跟拍记录，把镜头交给街头艺人自己解释表演节奏与收入结构。</p>
+            <div class="ck-meta-row"><span>作者 <b>Vltava 阿鹤</b></span><span>播放 <b>84.1 万</b></span></div>
+            <div class="ck-actions">
+              <span class="ck-tag ck-tag-teal">城市探索</span>
+              <button class="ck-icon-btn" type="button" data-ck-like aria-pressed="false"><span class="ck-dot"></span>点赞 <b>3.2万</b></button>
+              <button class="ck-icon-btn" type="button" data-ck-save aria-pressed="false">☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-vcard">
+          <div class="ck-vcard-media">
+            <svg viewBox="0 0 640 360" role="img" aria-label="剪辑台时间线特写，展示街头素材分段与调色轨道">
+              <rect width="640" height="360" fill="#101f2f"/>
+              <rect x="30" y="30" width="300" height="170" rx="8" fill="#1b3048"/>
+              <rect x="48" y="52" width="120" height="10" rx="4" fill="#3d6288"/>
+              <rect x="48" y="74" width="220" height="10" rx="4" fill="#2c4a67"/>
+              <rect x="48" y="110" width="264" height="70" rx="6" fill="#0d1a27" stroke="#3d6288" stroke-width="2"/>
+              <g>
+                <rect x="350" y="30" width="260" height="24" rx="5" fill="#e8503a" opacity=".85"/>
+                <rect x="350" y="64" width="200" height="24" rx="5" fill="#f2b23e" opacity=".8"/>
+                <rect x="350" y="98" width="240" height="24" rx="5" fill="#2f8f8a" opacity=".85"/>
+                <rect x="350" y="132" width="150" height="24" rx="5" fill="#4a7297"/>
+              </g>
+              <rect x="30" y="230" width="580" height="100" rx="8" fill="#16304a"/>
+              <g fill="#f2b23e" opacity=".8">
+                <rect x="48" y="248" width="60" height="64" rx="4"/>
+                <rect x="120" y="248" width="90" height="64" rx="4"/>
+                <rect x="222" y="248" width="52" height="64" rx="4"/>
+                <rect x="286" y="248" width="110" height="64" rx="4"/>
+                <rect x="408" y="248" width="74" height="64" rx="4"/>
+                <rect x="494" y="248" width="98" height="64" rx="4"/>
+              </g>
+              <text x="30" y="222" fill="#8fb3d5" font-family="sans-serif" font-size="16">TIMELINE · 街头素材分段与调色轨道</text>
+            </svg>
+            <span class="ck-vcard-dur">16:30</span>
+          </div>
+          <div class="ck-vcard-body">
+            <h3>把 4 小时街头素材剪成 18 分钟：完整版时间线拆解</h3>
+            <p>剪辑师公开真实工程，逐段讲解如何保住犹豫的两秒与那个没说完的句子。</p>
+            <div class="ck-meta-row"><span>作者 <b>剪辑台老周</b></span><span>播放 <b>63.7 万</b></span></div>
+            <div class="ck-actions">
+              <span class="ck-tag ck-tag-amber">教程干货</span>
+              <button class="ck-icon-btn" type="button" data-ck-like aria-pressed="false"><span class="ck-dot"></span>点赞 <b>2.7万</b></button>
+              <button class="ck-icon-btn" type="button" data-ck-save aria-pressed="false">☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-vcard">
+          <div class="ck-vcard-media">
+            <svg viewBox="0 0 640 360" role="img" aria-label="布拉格地铁站出入口人流与手持麦克风的采访示意">
+              <rect width="640" height="360" fill="#152a3d"/>
+              <path d="M0 300 L150 160 L260 300 Z" fill="#1e3a54"/>
+              <path d="M380 300 L520 150 L640 300 Z" fill="#1e3a54"/>
+              <rect x="240" y="60" width="160" height="240" rx="10" fill="#0f2130" stroke="#3f6488" stroke-width="3"/>
+              <circle cx="320" cy="120" r="26" fill="#e8503a"/>
+              <rect x="292" y="160" width="56" height="12" rx="5" fill="#f2b23e"/>
+              <g fill="#2c4d6b">
+                <circle cx="150" cy="280" r="20"/><rect x="133" y="298" width="34" height="52" rx="14"/>
+                <circle cx="470" cy="286" r="18"/><rect x="455" y="302" width="30" height="48" rx="13"/>
+              </g>
+              <g stroke="#f2b23e" stroke-width="4" fill="none">
+                <line x1="320" y1="330" x2="320" y2="290"/>
+              </g>
+              <circle cx="320" cy="282" r="12" fill="#f2b23e"/>
+              <text x="30" y="42" fill="#a9c6e0" font-family="sans-serif" font-size="18">METRO · 出口随机采访</text>
+            </svg>
+            <span class="ck-vcard-dur">09:54</span>
+          </div>
+          <div class="ck-vcard-body">
+            <h3>地铁出口的十次拒绝：那些没进入正片的回答</h3>
+            <p>被拒绝也是内容。团队整理十段未采用采访，聊聊街头拍摄的边界与尊重。</p>
+            <div class="ck-meta-row"><span>作者 <b>团队编辑部</b></span><span>播放 <b>51.2 万</b></span></div>
+            <div class="ck-actions">
+              <span class="ck-tag">拍摄幕后</span>
+              <button class="ck-icon-btn" type="button" data-ck-like aria-pressed="false"><span class="ck-dot"></span>点赞 <b>1.9万</b></button>
+              <button class="ck-icon-btn" type="button" data-ck-save aria-pressed="false">☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-vcard">
+          <div class="ck-vcard-media">
+            <svg viewBox="0 0 640 360" role="img" aria-label="伏尔塔瓦河畔傍晚长椅上两位本地居民对谈的画面">
+              <rect width="640" height="360" fill="#22303f"/>
+              <rect y="200" width="640" height="160" fill="#101d2a"/>
+              <circle cx="520" cy="110" r="54" fill="#f2b23e" opacity=".55"/>
+              <g fill="#2f4054">
+                <rect x="40" y="180" width="120" height="20" rx="6"/>
+                <rect x="60" y="220" width="80" height="12" rx="5"/>
+              </g>
+              <g fill="#0f1e2c">
+                <circle cx="250" cy="190" r="24"/><rect x="226" y="212" width="48" height="70" rx="18"/>
+                <circle cx="380" cy="196" r="22"/><rect x="358" y="216" width="44" height="66" rx="17"/>
+              </g>
+              <g stroke="#5b82a6" stroke-width="3" fill="none" opacity=".7">
+                <path d="M0 300 Q160 270 320 300 T640 300"/>
+                <path d="M0 322 Q160 296 320 322 T640 322"/>
+              </g>
+              <text x="30" y="44" fill="#9fbed8" font-family="sans-serif" font-size="18">RIVERSIDE · 傍晚对话</text>
+            </svg>
+            <span class="ck-vcard-dur">21:16</span>
+          </div>
+          <div class="ck-vcard-body">
+            <h3>河畔长椅上的两个小时：本地人怎么看街头互动实验</h3>
+            <p>人物访谈形式，听两位在布拉格生活二十年的居民谈城市、游客与镜头。</p>
+            <div class="ck-meta-row"><span>作者 <b>驻站记者米拉</b></span><span>播放 <b>38.6 万</b></span></div>
+            <div class="ck-actions">
+              <span class="ck-tag ck-tag-teal">人物访谈</span>
+              <button class="ck-icon-btn" type="button" data-ck-like aria-pressed="false"><span class="ck-dot"></span>点赞 <b>1.4万</b></button>
+              <button class="ck-icon-btn" type="button" data-ck-save aria-pressed="false">☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M7 图文索引 -->
+  <section class="ck-section ck-section-alt" aria-labelledby="ck-index-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Index · 图文索引</span>
+        <h2 id="ck-index-title">街头影像索引：五条值得回看的线索<small>捷克街头钞能力完整版 内容归档</small></h2>
+        <p class="ck-sec-desc">以图文索引方式归档不同题材，便于快速定位；每条索引都对应正片或幕后长文，标签可用于筛选与检索。</p>
+      </div>
+      <div class="ck-index-grid">
+        <a class="ck-index-card" href="#ck-focus">
+          <span class="ck-index-thumb">
+            <svg viewBox="0 0 120 120" role="img" aria-label="老城广场钟楼与人群的简笔索引图">
+              <rect width="120" height="120" fill="#1e3a54"/>
+              <rect x="50" y="24" width="20" height="70" fill="#f2b23e" opacity=".8"/>
+              <circle cx="60" cy="42" r="9" fill="#e8503a"/>
+              <rect y="88" width="120" height="32" fill="#122334"/>
+            </svg>
+          </span>
+          <span class="ck-index-body">
+            <h3>广场篇 · 三分钟选择题</h3>
+            <p>人流最密集处的完整记录，含未剪辑反应。</p>
+            <span class="ck-tag ck-tag-red">完整版</span>
+          </span>
+        </a>
+        <a class="ck-index-card" href="#ck-focus">
+          <span class="ck-index-thumb">
+            <svg viewBox="0 0 120 120" role="img" aria-label="桥梁与河面倒影的索引插画">
+              <rect width="120" height="120" fill="#22384d"/>
+              <path d="M0 70 Q60 34 120 70" stroke="#7ba3c8" stroke-width="6" fill="none"/>
+              <rect y="76" width="120" height="44" fill="#142333"/>
+              <path d="M0 92 Q60 62 120 92" stroke="#3d6288" stroke-width="4" fill="none"/>
+            </svg>
+          </span>
+          <span class="ck-index-body">
+            <h3>桥梁篇 · 清晨第一笔收入</h3>
+            <p>街头艺人跟拍，收入结构与表演节奏。</p>
+            <span class="ck-tag ck-tag-teal">城市探索</span>
+          </span>
+        </a>
+        <a class="ck-index-card" href="#ck-focus">
+          <span class="ck-index-thumb">
+            <svg viewBox="0 0 120 120" role="img" aria-label="剪辑时间线与轨道块的索引图">
+              <rect width="120" height="120" fill="#132a3f"/>
+              <rect x="14" y="24" width="92" height="14" rx="4" fill="#e8503a"/>
+              <rect x="14" y="46" width="68" height="14" rx="4" fill="#f2b23e"/>
+              <rect x="14" y="68" width="84" height="14" rx="4" fill="#2f8f8a"/>
+              <rect x="14" y="90" width="48" height="14" rx="4" fill="#4a7297"/>
+            </svg>
+          </span>
+          <span class="ck-index-body">
+            <h3>技术篇 · 时间线拆解</h3>
+            <p>四小时素材到十八分钟的取舍逻辑。</p>
+            <span class="ck-tag ck-tag-amber">教程干货</span>
+          </span>
+        </a>
+        <a class="ck-index-card" href="#ck-authors">
+          <span class="ck-index-thumb">
+            <svg viewBox="0 0 120 120" role="img" aria-label="手持麦克风采访的索引插画">
+              <rect width="120" height="120" fill="#1a3145"/>
+              <rect x="54" y="26" width="12" height="40" rx="6" fill="#f2b23e"/>
+              <path d="M60 66 L60 96" stroke="#7ba3c8" stroke-width="6"/>
+              <circle cx="60" cy="40" r="16" fill="none" stroke="#e8503a" stroke-width="4"/>
+            </svg>
+          </span>
+          <span class="ck-index-body">
+            <h3>采访篇 · 河畔两个小时</h3>
+            <p>本地居民视角下的街头与镜头关系。</p>
+            <span class="ck-tag ck-tag-teal">人物访谈</span>
+          </span>
+        </a>
+        <a class="ck-index-card" href="#ck-topics">
+          <span class="ck-index-thumb">
+            <svg viewBox="0 0 120 120" role="img" aria-label="城市轨道与方向箭头的索引图">
+              <rect width="120" height="120" fill="#16293b"/>
+              <path d="M20 100 L60 40 L100 100" stroke="#f2b23e" stroke-width="6" fill="none"/>
+              <circle cx="60" cy="40" r="9" fill="#e8503a"/>
+              <rect x="18" y="102" width="84" height="6" rx="3" fill="#3d6288"/>
+            </svg>
+          </span>
+          <span class="ck-index-body">
+            <h3>企划篇 · 街头挑战第二季</h3>
+            <p>面向社区的投稿企划与评选机制说明。</p>
+            <span class="ck-tag">专题企划</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- M4 专题企划 -->
+  <section class="ck-section" id="ck-topics" aria-labelledby="ck-topics-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Projects · 专题企划</span>
+        <h2 id="ck-topics-title">专题企划：让街头观察成为长期内容生态<small>持续更新 · 社区共建</small></h2>
+        <p class="ck-sec-desc">三个专题由官方编辑团队策划并维护，所有条目均为原创正版内容，欢迎创作者报名参与共创。</p>
+      </div>
+
+      <div class="ck-topics">
+        <article class="ck-topic">
+          <span class="ck-topic-status is-hot">更新中 · 第 12 期</span>
+          <h3>《捷克街头钞能力完整版》正片季</h3>
+          <p>每两周一期的核心企划，完整保留互动全过程、路人采访与拍摄复盘，是全站播放量最高的精品内容线。</p>
+          <ul class="ck-topic-list">
+            <li>第 12 期 · 老城广场的三分钟选择题</li>
+            <li>第 11 期 · 查理大桥边的十种回答</li>
+            <li>第 10 期 · 雨夜车站的沉默与笑声</li>
+          </ul>
+        </article>
+
+        <article class="ck-topic">
+          <span class="ck-topic-status">长期企划</span>
+          <h3>街头创作者纪录计划</h3>
+          <p>聚焦在捷克城市街头工作的普通人：手风琴手、修表匠、报亭老板，用长镜头呈现职业尊严与日常细节。</p>
+          <ul class="ck-topic-list">
+            <li>手风琴手的第三十个冬天</li>
+            <li>报亭老板的一天：从五点开门</li>
+            <li>修表匠与他的十七个抽屉</li>
+          </ul>
+        </article>
+
+        <article class="ck-topic">
+          <span class="ck-topic-status is-hot">报名中</span>
+          <h3>社区街头挑战 · 第二季</h3>
+          <p>面向全站创作者开放投稿，用一支三分钟短片记录你所在城市的街头互动，优秀作品进入官方推荐位。</p>
+          <ul class="ck-topic-list">
+            <li>投稿主题：陌生人之间的善意</li>
+            <li>评审维度：真实感 · 剪辑 · 叙事</li>
+            <li>截止时间：2026 年 12 月 20 日</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M15 关键词解析长文 -->
+  <section class="ck-section ck-section-alt" id="ck-essay" aria-labelledby="ck-essay-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Insight · 深度解析</span>
+        <h2 id="ck-essay-title">深度解析：捷克街头钞能力完整版为什么能长期被关注<small>品牌视角 · 内容方法论</small></h2>
+        <p class="ck-sec-desc">从内容结构、拍摄伦理到社区运营，拆解这一题材为何能在众多街头视频中形成稳定的品牌辨识度。</p>
+      </div>
+
+      <div class="ck-essay">
+        <aside class="ck-essay-aside">
+          <h3>本节目录</h3>
+          <ul>
+            <li>内容结构的三个支点</li>
+            <li>真实感的拍摄伦理</li>
+            <li>完整版的剪辑哲学</li>
+            <li>社区如何参与共创</li>
+          </ul>
+          <div class="ck-mini-stat">
+            <span>长文作者：<b>品牌内容研究中心</b></span>
+            <span>更新于：<b>2026 年 11 月 18 日</b></span>
+            <span>阅读时长：约 <b>6 分钟</b></span>
+          </div>
+        </aside>
+
+        <div class="ck-essay-main">
+          <article>
+            <h3>内容结构的三个支点：互动、反应、复盘</h3>
+            <p>《捷克街头钞能力完整版》之所以能形成品牌，不在于单条视频的爆点，而在于它把内容拆成了三个稳定支点。第一个支点是互动设计：每一次街头实验都会在开始前明确规则、划定区域，并安排至少一位现场协调员负责与参与者沟通。第二个支点是真实反应：团队坚持保留被拒绝、被误解、被反问的完整片段，因为这些片段恰恰是街头真实性的来源。第三个支点是事后复盘：每期正片之后，剪辑师会单独发布一支幕后视频，讲解叙事选择与素材取舍，让观众看到成品背后的专业判断。</p>
+            <p>这三个支点让“捷克街头钞能力完整版”不只是一个标题，而是一套可复制的内容方法论。新加入的创作者可以按照这套结构完成自己的短片：先用一个简单的开放问题建立互动，再用连续镜头捕捉不加修饰的反应，最后用一段克制的复盘说明自己的取舍。对品牌而言，这既是精品内容的标准化流程，也是社区共创的入门教程。</p>
+          </article>
+
+          <article>
+            <h3>真实感的拍摄伦理：镜头前的人不是素材</h3>
+            <p>街头影像最大的争议在于拍摄对象是否被充分尊重。节目的处理方式是：所有正片中出现的人物，都经过现场口头确认，并在成片前取得二次授权；对于明确表示不愿出镜的路人，团队会保留其尊重意愿的拍摄过程，作为未采用片段在幕后内容中讨论。拍摄现场固定配备双语说明卡，用捷克语与英语说明内容用途、发布渠道与删除方式，参与者可以随时要求撤回自己的片段。</p>
+            <p>这套流程并不轻松，会让单期拍摄周期延长约百分之三十，但它换来了更稳定的口碑。评论区里经常出现的评价是“他们先问再拍”，这句话看似朴素，却是一家视频企业最难得的社会责任表达。作为捷克街头题材的垂直领域品牌，我们相信真实与善意并不冲突，好的街头观察应该让每个出现在画面里的人，事后回看时仍然感到被尊重。</p>
+          </article>
+
+          <figure style="margin:0;display:grid;gap:8px;">
+            <svg viewBox="0 0 820 300" role="img" aria-label="街头拍摄伦理流程示意图，包含沟通、授权、成片确认三个环节" style="width:100%;border-radius:12px;border:1px solid var(--ck-line);background:#fff;">
+              <rect width="820" height="300" fill="#ffffff"/>
+              <g fill="#eaf1f9">
+                <rect x="30" y="60" width="220" height="120" rx="12"/>
+                <rect x="300" y="60" width="220" height="120" rx="12"/>
+                <rect x="570" y="60" width="220" height="120" rx="12"/>
+              </g>
+              <g fill="#19273d" font-family="sans-serif" font-size="17" font-weight="bold">
+                <text x="58" y="106">① 现场沟通</text>
+                <text x="328" y="106">② 二次授权</text>
+                <text x="598" y="106">③ 成片确认</text>
+              </g>
+              <g fill="#5d6c7e" font-family="sans-serif" font-size="13">
+                <text x="58" y="136">双语说明卡 · 明确用途</text>
+                <text x="58" y="160">尊重拒绝 · 记录过程</text>
+                <text x="328" y="136">成片前再次确认</text>
+                <text x="328" y="160">可随时要求撤回</text>
+                <text x="598" y="136">发布前小范围试看</text>
+                <text x="598" y="160">保留删除通道</text>
+              </g>
+              <g stroke="#f2b23e" stroke-width="3" fill="none">
+                <path d="M250 120 L292 120" marker-end="url(#ckArrow)"/>
+                <path d="M520 120 L562 120" marker-end="url(#ckArrow)"/>
+              </g>
+              <defs>
+                <marker id="ckArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M0 0 L10 5 L0 10 z" fill="#f2b23e"/>
+                </marker>
+              </defs>
+              <text x="30" y="240" fill="#2f8f8a" font-family="sans-serif" font-size="14">品牌原则：真实感来自尊重，而不是来自隐藏镜头。</text>
+            </svg>
+            <figcaption style="font-size:12.5px;color:var(--ck-muted);">街头拍摄伦理流程示意图 · 捷克街头钞能力完整版官方发布</figcaption>
+          </figure>
+
+          <article>
+            <h3>完整版的剪辑哲学：把犹豫的两秒还回去</h3>
+            <p>短视频时代最常见的手法是压缩节奏，把三分钟互动剪成十五秒高光。而《捷克街头钞能力完整版》刻意反向操作，保留犹豫、停顿、面面相觑的两秒。这些空白正是观众产生代入感的入口：当镜头里的人迟迟没有伸手，屏幕外的人也会在心里替他做决定。剪辑师老周在幕后视频里解释过，一段素材里最难剪的不是冲突，而是沉默，因为沉默必须被尊重，否则会变成嘲弄。</p>
+            <p>为此，团队建立了一套素材分级规范：所有涉及金钱、身份、隐私的对话必须完整呈现上下文；不得通过加速、变声、字幕引导来制造对立；不设置诱导性话术陷阱。这套规范让完整版单期时长普遍在十五到二十五分钟之间，却带来了更高的完播率与更长的评论区讨论。对一家视频企业而言，克制是最难的产品决策，也是品牌影响力的真正来源。</p>
+          </article>
+
+          <article>
+            <h3>社区如何参与共创：从观众到创作者</h3>
+            <p>品牌不是封闭的摄制组。官网开放投稿入口后，社区逐渐形成了三层共创结构：第一层是观众，通过投票参与下一期街区的选择；第二层是投稿者，用三分钟短片参与季度挑战；第三层是签约创作者，与官方团队一起完成正片拍摄与剪辑。社区每周三固定更新幕后花絮，每月发布一次创作者成长报告，公开播放、收藏、完播等数据口径，让内容生态保持透明。</p>
+            <p>这种结构让“捷克街头钞能力完整版”从单一节目发展为一个垂直领域的长期内容平台。新人在社区里被看见，老创作者获得稳定合作，企业与品牌方通过合作墙参与议题共建。我们坚持以用户至上、持续运营的原则打磨每一个环节，也愿意把方法论公开给所有对街头影像感兴趣的同行。毕竟，街头观察的价值不在于独家，而在于更多人学会如何真诚地记录。</p>
+          </article>
+
+          <div class="ck-essay-quote">
+            <b>品牌自述：</b>我们深耕捷克街头这一垂直领域，用原创高清影像记录真实反应，以匠心完成每一次拍摄与剪辑。官方网站将持续发布正片、幕后与教程，陪伴每一位创作者成长。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵：双列简介 -->
+  <section class="ck-section" id="ck-authors" aria-labelledby="ck-authors-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Creators · 创作者矩阵</span>
+        <h2 id="ck-authors-title">五位长期伙伴：捷克街头影像的创作者们<small>在册创作者 · 官方认证</small></h2>
+        <p class="ck-sec-desc">每位创作者都参与过至少三期正片拍摄，擅长领域覆盖街头互动、城市探索、剪辑教学与人物访谈。</p>
+      </div>
+
+      <div class="ck-authors">
+        <article class="ck-author">
+          <span class="ck-avatar" style="background:#19273d;" aria-hidden="true">岚</span>
+          <div class="ck-author-body">
+            <h3>阿岚 <span class="ck-tag ck-tag-red">街头互动</span></h3>
+            <div class="ck-author-stats"><span>作品 <b>86</b></span><span>粉丝 <b>124.3 万</b></span><span>加入 <b>2021</b></span></div>
+            <p>《捷克街头钞能力完整版》系列主创，负责互动设计与现场协调。习惯在开拍前花二十分钟和街区商户聊天，把拍摄许可与噪音影响都提前解决。相信镜头前的人先于内容存在，主张用最朴素的方式记录真实反应。</p>
+            <div class="ck-author-actions">
+              <button class="ck-icon-btn" type="button" data-ck-author="阿岚｜街头互动主创，参与正片 86 部，主张先沟通再拍摄，长期负责老城广场与地铁站片区的现场协调。">查看档案</button>
+              <button class="ck-icon-btn" type="button" data-ck-share="创作者 阿岚 的档案">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-author">
+          <span class="ck-avatar" style="background:#2f8f8a;" aria-hidden="true">鹤</span>
+          <div class="ck-author-body">
+            <h3>Vltava 阿鹤 <span class="ck-tag ck-tag-teal">城市探索</span></h3>
+            <div class="ck-author-stats"><span>作品 <b>64</b></span><span>粉丝 <b>78.6 万</b></span><span>加入 <b>2022</b></span></div>
+            <p>常驻布拉格的影像作者，专注清晨与黄昏时段的城市观察。镜头偏爱桥梁、河岸与旧城区巷口，擅长用长镜头保留环境声。认为城市探索的秘诀是慢下来，等一次光线、等一个自然发生的瞬间。</p>
+            <div class="ck-author-actions">
+              <button class="ck-icon-btn" type="button" data-ck-author="Vltava 阿鹤｜城市探索影像作者，长期记录布拉格桥梁与河岸，作品以长镜头与现场声见长。">查看档案</button>
+              <button class="ck-icon-btn" type="button" data-ck-share="创作者 Vltava 阿鹤 的档案">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-author">
+          <span class="ck-avatar" style="background:#e8503a;" aria-hidden="true">周</span>
+          <div class="ck-author-body">
+            <h3>剪辑台老周 <span class="ck-tag ck-tag-amber">教程干货</span></h3>
+            <div class="ck-author-stats"><span>作品 <b>112</b></span><span>粉丝 <b>96.1 万</b></span><span>加入 <b>2020</b></span></div>
+            <p>团队首席剪辑师，负责完整版时间线设计。主张剪辑的第一原则是不替观众做判断，因此坚持保留犹豫与停顿。每期幕后视频都公开真实工程文件结构，被社区称为最愿意分享的剪辑师。</p>
+            <div class="ck-author-actions">
+              <button class="ck-icon-btn" type="button" data-ck-author="剪辑台老周｜首席剪辑师，主讲时间线拆解与素材分级规范，公开真实工程结构，参与正片剪辑 112 部。">查看档案</button>
+              <button class="ck-icon-btn" type="button" data-ck-share="创作者 剪辑台老周 的档案">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-author">
+          <span class="ck-avatar" style="background:#f2b23e;color:#3b2b00;" aria-hidden="true">米</span>
+          <div class="ck-author-body">
+            <h3>驻站记者米拉 <span class="ck-tag">人物访谈</span></h3>
+            <div class="ck-author-stats"><span>作品 <b>47</b></span><span>粉丝 <b>52.8 万</b></span><span>加入 <b>2022</b></span></div>
+            <p>负责社区访谈与本地文化选题，双语沟通能力让她能更快建立信任。擅长把两小时闲聊整理成有节奏的对话，也乐于在评论区回应观众的追问。她的选题总能把街头影像拉回到人与城市的真实关系。</p>
+            <div class="ck-author-actions">
+              <button class="ck-icon-btn" type="button" data-ck-author="驻站记者米拉｜负责双语访谈与本地文化选题，作品覆盖居民、商户与街头工作者，以长对话见长。">查看档案</button>
+              <button class="ck-icon-btn" type="button" data-ck-share="创作者 驻站记者米拉 的档案">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="ck-author">
+          <span class="ck-avatar" style="background:#24384f;" aria-hidden="true">编</span>
+          <div class="ck-author-body">
+            <h3>团队编辑部 <span class="ck-tag ck-tag-teal">幕后企划</span></h3>
+            <div class="ck-author-stats"><span>作品 <b>58</b></span><span>粉丝 <b>41.5 万</b></span><span>加入 <b>2020</b></span></div>
+            <p>官方内容中台，负责企划审核、投稿评审与更新日志发布。编辑部坚持公开数据口径，每月发布创作者成长报告，也承担社区规则维护与隐私投诉处理，是品牌持续运营的稳定支点。</p>
+            <div class="ck-author-actions">
+              <button class="ck-icon-btn" type="button" data-ck-author="团队编辑部｜官方内容中台，负责企划审核、投稿评审与社区规则维护，每月发布创作者成长报告。">查看档案</button>
+              <button class="ck-icon-btn" type="button" data-ck-share="创作者 团队编辑部 的档案">分享</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M14 数据榜单 + M8 评论（双列短评） -->
+  <section class="ck-section ck-section-alt" id="ck-rank" aria-labelledby="ck-rank-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Rank & Reviews · 口碑</span>
+        <h2 id="ck-rank-title">本周口碑榜与社区短评<small>数据截至 2026 年 11 月 22 日</small></h2>
+        <p class="ck-sec-desc">榜单基于完播率、收藏数与评论质量综合计算，每周一更新；短评来自官网社区与正片评论区，已做隐私处理。</p>
+      </div>
+
+      <div class="ck-rank" role="list" aria-label="本周口碑榜">
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">1</span>
+          <span class="ck-rank-title">捷克街头钞能力完整版第 12 期 · 老城广场的三分钟选择题<small>街头互动 · 完整版 · 18:42</small></span>
+          <span class="ck-rank-num">完播 <b>72.4%</b></span>
+          <span class="ck-rank-trend">▲ 上升 3</span>
+        </div>
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">2</span>
+          <span class="ck-rank-title">把 4 小时素材剪成 18 分钟：完整版时间线拆解<small>教程干货 · 16:30</small></span>
+          <span class="ck-rank-num">完播 <b>68.1%</b></span>
+          <span class="ck-rank-trend">▲ 上升 1</span>
+        </div>
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">3</span>
+          <span class="ck-rank-title">清晨六点的查理大桥：跟拍街头艺人的第一笔收入<small>城市探索 · 12:08</small></span>
+          <span class="ck-rank-num">完播 <b>64.7%</b></span>
+          <span class="ck-rank-trend">— 持平</span>
+        </div>
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">4</span>
+          <span class="ck-rank-title">河畔长椅上的两个小时：本地人怎么看街头互动实验<small>人物访谈 · 21:16</small></span>
+          <span class="ck-rank-num">完播 <b>59.3%</b></span>
+          <span class="ck-rank-trend is-down">▼ 下降 2</span>
+        </div>
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">5</span>
+          <span class="ck-rank-title">地铁出口的十次拒绝：那些没进入正片的回答<small>拍摄幕后 · 09:54</small></span>
+          <span class="ck-rank-num">完播 <b>56.8%</b></span>
+          <span class="ck-rank-trend">▲ 新入榜</span>
+        </div>
+        <div class="ck-rank-row" role="listitem">
+          <span class="ck-rank-no">6</span>
+          <span class="ck-rank-title">雨夜车站的沉默与笑声：第 10 期未公开片段<small>完整版 · 14:22</small></span>
+          <span class="ck-rank-num">完播 <b>54.2%</b></span>
+          <span class="ck-rank-trend is-down">▼ 下降 1</span>
+        </div>
+      </div>
+
+      <div class="ck-quotes" style="margin-top:24px;">
+        <blockquote class="ck-quote">
+          <p>最喜欢的一点是他们把被拒绝的片段也放出来。看惯了只剪精彩反应的视频，这种完整版反而让人愿意一口气看完。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#19273d;" aria-hidden="true">林</span><span><b>林间小语</b> · 站内收藏 214 部</span><span class="ck-stars" style="margin-left:auto;">★★★★★</span></div>
+        </blockquote>
+        <blockquote class="ck-quote">
+          <p>剪辑拆解那期对我的帮助特别大，尤其是“保留犹豫两秒”的思路。第一次知道原来不剪掉空白也需要勇气。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#2f8f8a;" aria-hidden="true">S</span><span><b>Sasha_剪片日常</b> · 投稿 3 次</span><span class="ck-stars" style="margin-left:auto;">★★★★★</span></div>
+        </blockquote>
+        <blockquote class="ck-quote">
+          <p>画面和声音都很干净，但节奏确实比短视频慢，需要一点耐心。好在完整版本身就不追求快，看完会有回味。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#e8503a;" aria-hidden="true">陈</span><span><b>陈默看电影</b> · 注册 2 年</span><span class="ck-stars" style="margin-left:auto;">★★★★☆</span></div>
+        </blockquote>
+        <blockquote class="ck-quote">
+          <p>作为在布拉格待过一年的人，看第 12 期的老城广场特别亲切。连广场东侧那家卖热红酒的小摊都拍到了，细节很扎实。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#f2b23e;color:#3b2b00;" aria-hidden="true">布</span><span><b>布拉格旧梦</b> · 站内活跃 6 个月</span><span class="ck-stars" style="margin-left:auto;">★★★★★</span></div>
+        </blockquote>
+        <blockquote class="ck-quote">
+          <p>希望以后能多拍一点本地小店。街头互动很精彩，但我更想看那些在街角开了几十年的店铺故事。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#24384f;" aria-hidden="true">风</span><span><b>风里有信</b> · 收藏 89 部</span><span class="ck-stars" style="margin-left:auto;">★★★★☆</span></div>
+        </blockquote>
+        <blockquote class="ck-quote">
+          <p>投稿通道很清晰，上周投了一支三分钟的短片，两天就收到编辑部的反馈邮件，虽然没入选但建议很具体，体验不错。</p>
+          <div class="ck-quote-foot"><span class="ck-avatar" style="background:#24384f;" aria-hidden="true">禾</span><span><b>禾木同学</b> · 新人创作者</span><span class="ck-stars" style="margin-left:auto;">★★★★★</span></div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- M10 企业动态 -->
+  <section class="ck-section" id="ck-updates" aria-labelledby="ck-updates-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Updates · 企业动态</span>
+        <h2 id="ck-updates-title">企业动态与官方发布<small>持续运营 · 公开透明</small></h2>
+        <p class="ck-sec-desc">品牌、企划与社区规则的更新都会在此发布，重要变更同步在公告条提示。</p>
+      </div>
+      <div class="ck-news">
+        <article class="ck-news-item">
+          <div class="ck-news-date">2026.11.22</div>
+          <div>
+            <h3>《捷克街头钞能力完整版》第 12 期正片上线</h3>
+            <p>老城广场三机位实拍，完整保留 47 位路人的真实反应与事后采访，同步发布剪辑拆解视频。</p>
+          </div>
+        </article>
+        <article class="ck-news-item">
+          <div class="ck-news-date">2026.11.15</div>
+          <div>
+            <h3>社区街头挑战第二季报名启动</h3>
+            <p>面向全站创作者征集三分钟短片，主题为陌生人之间的善意，评审维度包含真实感、剪辑与叙事。</p>
+          </div>
+        </article>
+        <article class="ck-news-item">
+          <div class="ck-news-date">2026.11.08</div>
+          <div>
+            <h3>创作者激励计划第二季细则发布</h3>
+            <p>新增季度成长报告与数据公开页，签约创作者可获得拍摄设备支持与双语现场协调培训。</p>
+          </div>
+        </article>
+        <article class="ck-news-item">
+          <div class="ck-news-date">2026.10.30</div>
+          <div>
+            <h3>隐私与拍摄规范 3.0 版更新</h3>
+            <p>明确二次授权流程与撤回通道，新增双语说明卡模板，供社区创作者免费下载使用。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M11 合作墙 -->
+  <section class="ck-section ck-section-alt" aria-labelledby="ck-partners-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Partners · 合作品牌</span>
+        <h2 id="ck-partners-title">与我们共建街头影像生态的伙伴<small>长期合作 · 品牌共创</small></h2>
+        <p class="ck-sec-desc">合作方参与内容共创与议题支持，所有商业合作均在视频内明确标注。</p>
+      </div>
+      <div class="ck-partners">
+        <div class="ck-partner"><b>Vltava Studio</b><span>本地摄制支持</span></div>
+        <div class="ck-partner"><b>老城影像社</b><span>放映与沙龙</span></div>
+        <div class="ck-partner"><b>Kč 街区咖啡</b><span>拍摄休息站</span></div>
+        <div class="ck-partner"><b>桥下书店</b><span>文化选题共建</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- M13 联系投稿 + M12 FAQ -->
+  <section class="ck-section" id="ck-faq" aria-labelledby="ck-faq-title">
+    <div class="ck-wrap">
+      <div class="ck-sec-head">
+        <span class="ck-sec-tag">Help · 帮助与投稿</span>
+        <h2 id="ck-faq-title">常见问题与投稿入口<small>官方答疑 · 持续更新</small></h2>
+      </div>
+
+      <div class="ck-cta" id="ck-submit" style="margin-bottom:24px;">
+        <div>
+          <h2>把你的街头影像投给我们</h2>
+          <p>无论你在大城还是小镇，只要有一支三分钟的真实短片，都欢迎投稿。通过初筛的作品会进入季度挑战推荐位，并获得编辑部的具体修改建议。</p>
+        </div>
+        <div class="ck-cta-actions">
+          <button class="ck-btn ck-btn-primary" type="button" data-ck-open="submit">我要投稿</button>
+          <button class="ck-btn ck-btn-ghost" type="button" data-ck-open="feedback">反馈建议</button>
+        </div>
+      </div>
+
+      <div class="ck-faq">
+        <details>
+          <summary>《捷克街头钞能力完整版》多久更新一期？</summary>
+          <p>官方正片每两周更新一期，幕后花絮与剪辑拆解在每周三更新。遇大型企划或节日特别拍摄会提前在公告条说明。</p>
+        </details>
+        <details>
+          <summary>投稿有什么格式要求？</summary>
+          <p>建议 16:9 横版、1080P 以上、时长 3 到 30 分钟，文件大小不超过 4GB。请在投稿说明里附上拍摄地点、参与者的授权情况与素材来源。</p>
+        </details>
+        <details>
+          <summary>拍摄时如何取得路人授权？</summary>
+          <p>可使用官网提供的双语说明卡模板，现场说明内容用途与发布渠道，并在成片前再次确认。我们不接受隐藏拍摄且未取得授权的素材。</p>
+        </details>
+        <details>
+          <summary>如果不想让自己的画面出现怎么办？</summary>
+          <p>可以在评论区或联系邮箱提出，提供大致时间点与画面描述，编辑部会在核实后尽快下架或处理，不要求说明理由。</p>
+        </details>
+        <details>
+          <summary>商业合作会影响内容判断吗？</summary>
+          <p>不会。所有商业合作都会在视频开头与简介中明确标注，合作方不参与内容取舍，也不预设观点。</p>
+        </details>
+        <details>
+          <summary>如何加入在册创作者？</summary>
+          <p>连续两季参与社区挑战并进入推荐位，或经在册创作者推荐并提交作品集，编辑部评估后会发出邀请。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ck-footer">
+  <div class="ck-wrap">
+    <div class="ck-footer-grid">
+      <div>
+        <div class="ck-footer-brand">
+          <span class="ck-brand-mark" aria-hidden="true"><span></span></span>
+          <b>捷克街头钞能力完整版</b>
+        </div>
+        <p>捷克街头钞能力完整版官方网站，专注街头互动与城市观察的原创视频品牌。我们以专业摄制与透明规范，持续运营高品质内容生态，服务创作者与观众。</p>
+        <p style="margin-top:10px;">官方邮箱：hello@streetpower-studio.cn<br>商务合作：partner@streetpower-studio.cn</p>
+      </div>
+      <div>
+        <h3>内容</h3>
+        <ul>
+          <li><a href="#ck-focus">焦点影像</a></li>
+          <li><a href="#ck-topics">专题企划</a></li>
+          <li><a href="#ck-essay">深度解析</a></li>
+          <li><a href="#ck-rank">本周口碑榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区</h3>
+        <ul>
+          <li><a href="#ck-authors">创作者矩阵</a></li>
+          <li><a href="#ck-submit">投稿与报名</a></li>
+          <li><a href="#ck-updates">企业动态</a></li>
+          <li><a href="#ck-faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于</h3>
+        <ul>
+          <li><a href="#ck-top">品牌介绍</a></li>
+          <li><a href="#ck-essay">拍摄伦理规范</a></li>
+          <li><a href="#ck-faq">隐私与授权</a></li>
+          <li><a href="#ck-updates">更新日志</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ck-footer-bottom">
+      <span>© 2026 捷克街头钞能力完整版 官方网站 · 版权所有 · 持续运营中</span>
+      <span>原创正版内容 · 高清发布 · 备案号 沪ICP备2026-1108号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="ck-top-btn" id="ck-top-btn" type="button" aria-label="回到顶部">↑</button>
+
+<div class="ck-modal-mask" id="ck-modal-mask" role="dialog" aria-modal="true" aria-labelledby="ck-modal-title">
+  <div class="ck-modal" id="ck-modal">
+    <h3 id="ck-modal-title">提示<button class="ck-modal-close" type="button" id="ck-modal-close" aria-label="关闭弹窗">×</button></h3>
+    <div id="ck-modal-body"></div>
+  </div>
+</div>
+
+<div class="ck-toast" id="ck-toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  var $ = function(sel, root){ return (root || document).querySelector(sel); };
+  var $$ = function(sel, root){ return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
+
+  /* ---------- Toast ---------- */
+  var toastEl = $("#ck-toast");
+  var toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("is-show"); }, 2200);
+  }
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var burger = $("#ck-burger");
+  var nav = $("#ck-nav");
+  if(burger && nav){
+    burger.addEventListener("click", function(){
+      var open = nav.classList.toggle("is-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.setAttribute("aria-label", open ? "收起导航菜单" : "展开导航菜单");
+    });
+    $$("a", nav).forEach(function(a){
+      a.addEventListener("click", function(){
+        nav.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* ---------- 导航高亮 ---------- */
+  var navLinks = $$("#ck-nav a");
+  var sections = navLinks.map(function(a){
+    var id = a.getAttribute("href");
+    return id && id.charAt(0) === "#" ? document.querySelector(id) : null;
+  });
+  function syncNav(){
+    var pos = window.scrollY + 200;
+    var idx = -1;
+    sections.forEach(function(sec, i){
+      if(sec && sec.offsetTop <= pos) idx = i;
+    });
+    navLinks.forEach(function(a, i){
+      a.classList.toggle("is-active", i === idx);
+    });
+  }
+  window.addEventListener("scroll", syncNav, { passive: true });
+  syncNav();
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchForm = $("#ck-search-form");
+  var searchInput = $("#ck-search-input");
+  var searchFeedback = $("#ck-search-feedback");
+  var searchPool = [
+    "捷克街头钞能力完整版 第 12 期 老城广场",
+    "完整版 时间线拆解 剪辑教学",
+    "查理大桥 街头艺人 跟拍",
+    "地铁出口 采访 未采用片段",
+    "社区街头挑战 第二季 报名",
+    "创作者矩阵 阿岚 剪辑台老周",
+    "拍摄伦理 双语说明卡 模板",
+    "本周口碑榜 完播率 数据"
+  ];
+  function doSearch(){
+    if(!searchInput || !searchFeedback) return;
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.classList.add("is-empty");
+      searchFeedback.textContent = "请输入关键词，例如：完整版 / 剪辑 / 广场";
+      return;
+    }
+    var hit = searchPool.filter(function(t){ return t.toLowerCase().indexOf(q.toLowerCase()) !== -1; });
+    if(hit.length){
+      searchFeedback.classList.remove("is-empty");
+      searchFeedback.textContent = "为你找到 " + hit.length + " 条相关内容：" + hit[0];
+    }else{
+      var guess = searchPool[Math.floor(Math.random() * searchPool.length)];
+      searchFeedback.classList.remove("is-empty");
+      searchFeedback.textContent = "暂无完全匹配，推荐 Related：" + guess;
+    }
+  }
+  if(searchForm){
+    searchForm.addEventListener("submit", function(e){ e.preventDefault(); doSearch(); });
+    if(searchInput){
+      searchInput.addEventListener("input", function(){
+        if(searchInput.value.trim().length >= 2) doSearch();
+      });
+    }
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  $$("[data-ck-like]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var liked = btn.classList.toggle("is-liked");
+      btn.setAttribute("aria-pressed", liked ? "true" : "false");
+      var b = btn.querySelector("b");
+      if(b){
+        var raw = b.textContent.replace(/[^\d.]/g, "");
+        var num = parseFloat(raw);
+        if(!isNaN(num)){
+          num = liked ? num + 0.1 : Math.max(0, num - 0.1);
+          b.textContent = (Math.abs(num - Math.round(num)) < 0.001 ? Math.round(num) : num.toFixed(1)) + "万";
+        }
+      }
+      toast(liked ? "已点赞，感谢支持原创内容" : "已取消点赞");
+    });
+  });
+
+  $$("[data-ck-save]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var saved = btn.classList.toggle("is-saved");
+      btn.setAttribute("aria-pressed", saved ? "true" : "false");
+      btn.textContent = saved ? "★ 已收藏" : "☆ 收藏";
+      toast(saved ? "已收藏，可在个人中心查看" : "已取消收藏");
+    });
+  });
+
+  /* ---------- 分享 / 复制链接 ---------- */
+  function copyText(text){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function(resolve, reject){
+      try{
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        resolve();
+      }catch(err){ reject(err); }
+    });
+  }
+  $$("[data-ck-share]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var title = btn.getAttribute("data-ck-share") || document.title;
+      var text = title + " — " + location.origin + location.pathname;
+      copyText(text).then(function(){
+        toast("链接已复制，可分享到微信 / 微博 / QQ");
+      }).catch(function(){
+        toast("复制失败，请手动复制页面地址");
+      });
+    });
+  });
+
+  /* ---------- 播放提示 ---------- */
+  $$("[data-ck-play]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var name = btn.getAttribute("data-ck-play");
+      toast("正在加载《" + name + "》高清版本…");
+    });
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var mask = $("#ck-modal-mask");
+  var modalTitle = $("#ck-modal-title");
+  var modalBody = $("#ck-modal-body");
+
+  function openModal(title, html){
+    if(!mask) return;
+    modalTitle.childNodes[0].nodeValue = title + " ";
+    modalBody.innerHTML = html;
+    mask.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(){
+    if(!mask) return;
+    mask.classList.remove("is-open");
+    document.body.style.overflow = "";
+  }
+  $("#ck-modal-close").addEventListener("click", closeModal);
+  mask.addEventListener("click", function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeModal(); });
+
+  $$("[data-ck-author]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var info = btn.getAttribute("data-ck-author") || "";
+      var parts = info.split("｜");
+      var name = parts[0] || "创作者";
+      var desc = parts[1] || "暂无更多档案信息。";
+      openModal("创作者档案", '<p style="font-weight:700;color:#19273d;font-size:15px;">' + name + '</p><p>' + desc + '</p><p>如需合作或采访，请通过页脚邮箱联系团队编辑部。</p><div class="ck-modal-actions"><button class="ck-btn ck-btn-dark" type="button" data-ck-close-ok>知道了</button></div>');
+      bindOk();
+    });
+  });
+
+  var modalTemplates = {
+    submit: {
+      title: "投稿与报名",
+      html: '<p>填写基本信息提交，编辑部将在三个工作日内回复。请确保素材已取得参与者授权。</p>' +
+            '<label for="ck-f-title">作品标题</label><input id="ck-f-title" type="text" placeholder="例如：清晨六点的桥头">' +
+            '<label for="ck-f-name">创作者昵称</label><input id="ck-f-name" type="text" placeholder="用于展示的作者名">' +
+            '<label for="ck-f-link">作品链接或网盘地址</label><input id="ck-f-link" type="text" placeholder="请附可下载的高清版本">' +
+            '<label for="ck-f-note">拍摄说明</label><textarea id="ck-f-note" placeholder="拍摄地点、时间、参与者授权情况"></textarea>' +
+            '<div class="ck-modal-actions"><button class="ck-btn ck-btn-primary" type="button" data-ck-submit-ok>提交投稿</button><button class="ck-btn ck-btn-line" type="button" data-ck-close-ok>取消</button></div>'
+    },
+    feedback: {
+      title: "反馈与举报",
+      html: '<p>如果发现内容问题或需要下架处理，请描述具体位置与原因，我们会尽快核实。</p>' +
+            '<label for="ck-f-type">反馈类型</label><select id="ck-f-type"><option>画面授权问题</option><option>内容准确性</option><option>技术故障</option><option>其他建议</option></select>' +
+            '<label for="ck-f-detail">详细描述</label><textarea id="ck-f-detail" placeholder="请尽量说明时间点与画面细节"></textarea>' +
+            '<div class="ck-modal-actions"><button class="ck-btn ck-btn-primary" type="button" data-ck-submit-ok>提交反馈</button><button class="ck-btn ck-btn-line" type="button" data-ck-close-ok>取消</button></div>'
+    }
+  };
+
+  function bindOk(){
+    $$("[data-ck-close-ok]").forEach(function(b){
+      b.addEventListener("click", closeModal);
+    });
+    $$("[data-ck-submit-ok]").forEach(function(b){
+      b.addEventListener("click", function(){
+        closeModal();
+        toast("已提交，编辑部会尽快处理并回复");
+      });
+    });
+  }
+
+  $$("[data-ck-open]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var key = btn.getAttribute("data-ck-open");
+      var tpl = modalTemplates[key];
+      if(!tpl){ return; }
+      openModal(tpl.title, tpl.html);
+      bindOk();
+    });
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = $("#ck-top-btn");
+  window.addEventListener("scroll", function(){
+    if(!topBtn) return;
+    topBtn.classList.toggle("is-show", window.scrollY > 520);
+  }, { passive: true });
+  if(topBtn){
+    topBtn.addEventListener("click", function(){
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+})();
+</script>
+</body>
+                                                                </html>
